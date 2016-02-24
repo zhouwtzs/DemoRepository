@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86CD4B91C46EEFA003743C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CD4B81C46EEFA003743C5 /* main.m */; };
+		B86CD4BC1C46EEFA003743C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CD4BB1C46EEFA003743C5 /* AppDelegate.m */; };
+		B86CD4BF1C46EEFA003743C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CD4BE1C46EEFA003743C5 /* ViewController.m */; };
+		B86CD4C21C46EEFA003743C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86CD4C01C46EEFA003743C5 /* Main.storyboard */; };
+		B86CD4C41C46EEFA003743C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86CD4C31C46EEFA003743C5 /* Assets.xcassets */; };
+		B86CD4C71C46EEFA003743C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86CD4C51C46EEFA003743C5 /* LaunchScreen.storyboard */; };
+		B86CD4D21C46EEFA003743C5 /* saoleiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CD4D11C46EEFA003743C5 /* saoleiTests.m */; };
+		B86CD4DD1C46EEFA003743C5 /* saoleiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B86CD4DC1C46EEFA003743C5 /* saoleiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B86CD4CE1C46EEFA003743C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86CD4AC1C46EEFA003743C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86CD4B31C46EEFA003743C5;
+			remoteInfo = saolei;
+		};
+		B86CD4D91C46EEFA003743C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86CD4AC1C46EEFA003743C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86CD4B31C46EEFA003743C5;
+			remoteInfo = saolei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B86CD4B41C46EEFA003743C5 /* saolei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saolei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86CD4B81C46EEFA003743C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B86CD4BA1C46EEFA003743C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B86CD4BB1C46EEFA003743C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B86CD4BD1C46EEFA003743C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B86CD4BE1C46EEFA003743C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B86CD4C11C46EEFA003743C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B86CD4C31C46EEFA003743C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86CD4C61C46EEFA003743C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B86CD4C81C46EEFA003743C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86CD4CD1C46EEFA003743C5 /* saoleiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saoleiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86CD4D11C46EEFA003743C5 /* saoleiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saoleiTests.m; sourceTree = "<group>"; };
+		B86CD4D31C46EEFA003743C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86CD4D81C46EEFA003743C5 /* saoleiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saoleiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86CD4DC1C46EEFA003743C5 /* saoleiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saoleiUITests.m; sourceTree = "<group>"; };
+		B86CD4DE1C46EEFA003743C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86CD4B11C46EEFA003743C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86CD4CA1C46EEFA003743C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86CD4D51C46EEFA003743C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86CD4AB1C46EEFA003743C5 = {
+			isa = PBXGroup;
+			children = (
+				B86CD4B61C46EEFA003743C5 /* saolei */,
+				B86CD4D01C46EEFA003743C5 /* saoleiTests */,
+				B86CD4DB1C46EEFA003743C5 /* saoleiUITests */,
+				B86CD4B51C46EEFA003743C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B86CD4B51C46EEFA003743C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86CD4B41C46EEFA003743C5 /* saolei.app */,
+				B86CD4CD1C46EEFA003743C5 /* saoleiTests.xctest */,
+				B86CD4D81C46EEFA003743C5 /* saoleiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86CD4B61C46EEFA003743C5 /* saolei */ = {
+			isa = PBXGroup;
+			children = (
+				B86CD4BA1C46EEFA003743C5 /* AppDelegate.h */,
+				B86CD4BB1C46EEFA003743C5 /* AppDelegate.m */,
+				B86CD4BD1C46EEFA003743C5 /* ViewController.h */,
+				B86CD4BE1C46EEFA003743C5 /* ViewController.m */,
+				B86CD4C01C46EEFA003743C5 /* Main.storyboard */,
+				B86CD4C31C46EEFA003743C5 /* Assets.xcassets */,
+				B86CD4C51C46EEFA003743C5 /* LaunchScreen.storyboard */,
+				B86CD4C81C46EEFA003743C5 /* Info.plist */,
+				B86CD4B71C46EEFA003743C5 /* Supporting Files */,
+			);
+			path = saolei;
+			sourceTree = "<group>";
+		};
+		B86CD4B71C46EEFA003743C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86CD4B81C46EEFA003743C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B86CD4D01C46EEFA003743C5 /* saoleiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B86CD4D11C46EEFA003743C5 /* saoleiTests.m */,
+				B86CD4D31C46EEFA003743C5 /* Info.plist */,
+			);
+			path = saoleiTests;
+			sourceTree = "<group>";
+		};
+		B86CD4DB1C46EEFA003743C5 /* saoleiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B86CD4DC1C46EEFA003743C5 /* saoleiUITests.m */,
+				B86CD4DE1C46EEFA003743C5 /* Info.plist */,
+			);
+			path = saoleiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86CD4B31C46EEFA003743C5 /* saolei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86CD4E11C46EEFA003743C5 /* Build configuration list for PBXNativeTarget "saolei" */;
+			buildPhases = (
+				B86CD4B01C46EEFA003743C5 /* Sources */,
+				B86CD4B11C46EEFA003743C5 /* Frameworks */,
+				B86CD4B21C46EEFA003743C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = saolei;
+			productName = saolei;
+			productReference = B86CD4B41C46EEFA003743C5 /* saolei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B86CD4CC1C46EEFA003743C5 /* saoleiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86CD4E41C46EEFA003743C5 /* Build configuration list for PBXNativeTarget "saoleiTests" */;
+			buildPhases = (
+				B86CD4C91C46EEFA003743C5 /* Sources */,
+				B86CD4CA1C46EEFA003743C5 /* Frameworks */,
+				B86CD4CB1C46EEFA003743C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86CD4CF1C46EEFA003743C5 /* PBXTargetDependency */,
+			);
+			name = saoleiTests;
+			productName = saoleiTests;
+			productReference = B86CD4CD1C46EEFA003743C5 /* saoleiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B86CD4D71C46EEFA003743C5 /* saoleiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86CD4E71C46EEFA003743C5 /* Build configuration list for PBXNativeTarget "saoleiUITests" */;
+			buildPhases = (
+				B86CD4D41C46EEFA003743C5 /* Sources */,
+				B86CD4D51C46EEFA003743C5 /* Frameworks */,
+				B86CD4D61C46EEFA003743C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86CD4DA1C46EEFA003743C5 /* PBXTargetDependency */,
+			);
+			name = saoleiUITests;
+			productName = saoleiUITests;
+			productReference = B86CD4D81C46EEFA003743C5 /* saoleiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86CD4AC1C46EEFA003743C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "周文涛";
+				TargetAttributes = {
+					B86CD4B31C46EEFA003743C5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V6A9P37ADX;
+					};
+					B86CD4CC1C46EEFA003743C5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V6A9P37ADX;
+						TestTargetID = B86CD4B31C46EEFA003743C5;
+					};
+					B86CD4D71C46EEFA003743C5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V6A9P37ADX;
+						TestTargetID = B86CD4B31C46EEFA003743C5;
+					};
+				};
+			};
+			buildConfigurationList = B86CD4AF1C46EEFA003743C5 /* Build configuration list for PBXProject "saolei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86CD4AB1C46EEFA003743C5;
+			productRefGroup = B86CD4B51C46EEFA003743C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86CD4B31C46EEFA003743C5 /* saolei */,
+				B86CD4CC1C46EEFA003743C5 /* saoleiTests */,
+				B86CD4D71C46EEFA003743C5 /* saoleiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86CD4B21C46EEFA003743C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86CD4C71C46EEFA003743C5 /* LaunchScreen.storyboard in Resources */,
+				B86CD4C41C46EEFA003743C5 /* Assets.xcassets in Resources */,
+				B86CD4C21C46EEFA003743C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86CD4CB1C46EEFA003743C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86CD4D61C46EEFA003743C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86CD4B01C46EEFA003743C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86CD4BF1C46EEFA003743C5 /* ViewController.m in Sources */,
+				B86CD4BC1C46EEFA003743C5 /* AppDelegate.m in Sources */,
+				B86CD4B91C46EEFA003743C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86CD4C91C46EEFA003743C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86CD4D21C46EEFA003743C5 /* saoleiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86CD4D41C46EEFA003743C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86CD4DD1C46EEFA003743C5 /* saoleiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B86CD4CF1C46EEFA003743C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86CD4B31C46EEFA003743C5 /* saolei */;
+			targetProxy = B86CD4CE1C46EEFA003743C5 /* PBXContainerItemProxy */;
+		};
+		B86CD4DA1C46EEFA003743C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86CD4B31C46EEFA003743C5 /* saolei */;
+			targetProxy = B86CD4D91C46EEFA003743C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B86CD4C01C46EEFA003743C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86CD4C11C46EEFA003743C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B86CD4C51C46EEFA003743C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86CD4C61C46EEFA003743C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B86CD4DF1C46EEFA003743C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B86CD4E01C46EEFA003743C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B86CD4E21C46EEFA003743C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = saolei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouwt.saolei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B86CD4E31C46EEFA003743C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = saolei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouwt.saolei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B86CD4E51C46EEFA003743C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = saoleiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouwt.saoleiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saolei.app/saolei";
+			};
+			name = Debug;
+		};
+		B86CD4E61C46EEFA003743C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = saoleiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouwt.saoleiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saolei.app/saolei";
+			};
+			name = Release;
+		};
+		B86CD4E81C46EEFA003743C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = saoleiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouwt.saoleiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = saolei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B86CD4E91C46EEFA003743C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = saoleiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouwt.saoleiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = saolei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86CD4AF1C46EEFA003743C5 /* Build configuration list for PBXProject "saolei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86CD4DF1C46EEFA003743C5 /* Debug */,
+				B86CD4E01C46EEFA003743C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86CD4E11C46EEFA003743C5 /* Build configuration list for PBXNativeTarget "saolei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86CD4E21C46EEFA003743C5 /* Debug */,
+				B86CD4E31C46EEFA003743C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86CD4E41C46EEFA003743C5 /* Build configuration list for PBXNativeTarget "saoleiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86CD4E51C46EEFA003743C5 /* Debug */,
+				B86CD4E61C46EEFA003743C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86CD4E71C46EEFA003743C5 /* Build configuration list for PBXNativeTarget "saoleiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86CD4E81C46EEFA003743C5 /* Debug */,
+				B86CD4E91C46EEFA003743C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B86CD4AC1C46EEFA003743C5 /* Project object */;
+}
